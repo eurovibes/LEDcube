@@ -1,0 +1,11 @@
+# KiCad
+*-backups/
+fp-info-cache
+place_footprints.log
+
+# FreeCAD
+*.FCStd[0-9]
+
+# other backup files
+*~
+\#*#
