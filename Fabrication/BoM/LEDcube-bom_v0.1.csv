@@ -1,0 +1,31 @@
+Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,Quantity Per PCB
+1,C102 C104 C105 C106,C,100 nF,,,,C_0402_1005Metric,,4
+2,C101 C103,C_Polarized,10 µF,,,,CP_EIA-3216-18_Kemet-A,,2
+3,D101,BAT60A,BAT60A,,,,D_SOD-323,,1
+4,D102 D103 D104 D105,WS2812B,WS2812B,,,,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,,4
+5,H101 H102 H103 H104,MountingHole_Pad,~,,,,MountingHole_3.2mm_M3_ISO14580_Pad,,4
+6,J101 J102,Conn_01x04,IN,,,,PinHeader_1x04_P2.54mm_Vertical,,2
+7,J103,Conn_01x06,JTAG,,,,Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical,,1
+8,JP101 JP102,SolderJumper_2_Open,NRST,,,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,2
+9,R101 R102,R,100 kΩ,,,,R_0402_1005Metric,,2
+10,U101,AP1117-33,AP1117-33,,,,SOT-223-3_TabPin2,,1
+11,U103,SP3485CN,SP3485CN,,,,SOIC-8_3.9x4.9mm_P1.27mm,,1
+12,U102,STM32F030F4Px,STM32F030F4Px,,,,TSSOP-20_4.4x6.5mm_P0.65mm,,1
+13,Y101,Crystal_GND24_Small,16MHz,,,,Crystal_SMD_3225-4Pin_3.2x2.5mm,,1
+
+
+
+
+
+Project info:
+Schematic:,LEDcube
+Variant:,default
+Revision:,v0.1
+Date:,2022-05-22
+KiCad Version:,6.0.4+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,13
+Component Count:,26
+Fitted Components:,26
+Number of PCBs:,1
+Total Components:,26
