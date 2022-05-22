@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+
+title: A RGB LED cube
+description: A tribute to a good friend of mine, who perished. Let there be, let there always be never ending light.
+logo: https://github.com/eurovibes/LEDcube/raw/master/images/LEDcube.png
+show_downloads: true
+
+github:
+  zip_url: downloads/fabrication.zip
+  tar_url: downloads/fabrication.tar.gz
