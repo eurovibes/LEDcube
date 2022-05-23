@@ -1,3 +1,7 @@
+.*
+!.gitignore
+!.gitmodules
+
 # KiCad
 *-backups/
 fp-info-cache
