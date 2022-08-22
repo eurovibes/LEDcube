@@ -7,7 +7,7 @@ Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,
 6,J101 J102,Conn_01x04,IN,,,,PinHeader_1x04_P2.54mm_Vertical,,2
 7,J103,Conn_01x06,JTAG,,,,Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical,,1
 8,JP101 JP102,SolderJumper_2_Open,NRST,,,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,2
-9,R101 R102,R,100 kΩ,,,,R_0402_1005Metric,,2
+9,R101 R102 R103,R,100 kΩ,,,,R_0402_1005Metric,,3
 10,U101,AP1117-33,AP1117-33,,,,SOT-223-3_TabPin2,,1
 11,U103,SP3485CN,SP3485CN,,,,SOIC-8_3.9x4.9mm_P1.27mm,,1
 12,U102,STM32F030F4Px,STM32F030F4Px,,,,TSSOP-20_4.4x6.5mm_P0.65mm,,1
@@ -22,10 +22,10 @@ Schematic:,LEDcube
 Variant:,default
 Revision:,v0.1
 Date:,2022-05-22
-KiCad Version:,6.0.4+dfsg-1~bpo11+1
+KiCad Version:,6.0.5+dfsg-1~bpo11+1
 Statistics:
 Component Groups:,13
-Component Count:,26
-Fitted Components:,26
+Component Count:,27
+Fitted Components:,27
 Number of PCBs:,1
-Total Components:,26
+Total Components:,27
