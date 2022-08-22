@@ -4,11 +4,8 @@ name: "A RGB LED cube"
 # request events but only for the master branch
 on:
   push:
-    paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/main.yml'
+    branches:
+      - master
   pull_request:
     paths:
       - '*.kicad_sch'
