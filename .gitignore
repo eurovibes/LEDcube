@@ -7,6 +7,7 @@
 *-backups/
 fp-info-cache
 place_footprints.log
+*lck
 
 # FreeCAD
 *.FCStd[0-9]
