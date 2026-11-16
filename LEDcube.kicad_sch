@@ -1207,6 +1207,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4125,10 +4326,6 @@
 		(uuid "8dc41ca6-49ea-4e7b-a63d-ecc0831676ef")
 	)
 	(no_connect
-		(at 88.9 63.5)
-		(uuid "92e340ee-7033-4102-8c26-5250af0be603")
-	)
-	(no_connect
 		(at 114.3 55.88)
 		(uuid "92e340ee-7033-4102-8c26-5250af0be604")
 	)
@@ -4227,6 +4424,16 @@
 			(type default)
 		)
 		(uuid "146028ba-70af-45eb-a922-5d9c597993bc")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 83.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159d0524-44a8-4649-825a-d22db06be2b0")
 	)
 	(wire
 		(pts
@@ -4500,6 +4707,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 45.72) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a76b3c-ea35-43f4-8a75-c32c859f04b5")
+	)
+	(wire
+		(pts
 			(xy 78.74 60.96) (xy 78.74 62.23)
 		)
 		(stroke
@@ -4577,6 +4794,16 @@
 			(type default)
 		)
 		(uuid "4843e2e9-45f8-47c9-b136-80f3db86800c")
+	)
+	(wire
+		(pts
+			(xy 190.5 55.88) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496c31e4-81a8-4b6e-8b26-69f3bcca8c32")
 	)
 	(wire
 		(pts
@@ -5120,6 +5347,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 35.56) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62d6ca0-4e11-40bc-ace1-5482ee625e5a")
+	)
+	(wire
+		(pts
 			(xy 71.12 54.61) (xy 71.12 52.07)
 		)
 		(stroke
@@ -5137,6 +5374,16 @@
 			(type default)
 		)
 		(uuid "c847a080-ce63-4b25-a6c7-912e954f0330")
+	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fb82c1-26d8-466f-b948-7d3ae9f79742")
 	)
 	(wire
 		(pts
@@ -5177,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "d54cbf33-38bb-44bd-ab42-a7fc454d0c6b")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73e7185-a61f-4d51-85f2-73d189c988be")
 	)
 	(wire
 		(pts
@@ -5438,6 +5695,16 @@
 		)
 		(uuid "6b6da862-f4e4-4e68-9f05-49508fc8fb5c")
 	)
+	(label "LED0"
+		(at 190.5 58.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85cc49c7-8637-41af-8a0c-494586141898")
+	)
 	(label "SWCLK"
 		(at 116.84 73.66 0)
 		(effects
@@ -5467,6 +5734,16 @@
 			(justify left bottom)
 		)
 		(uuid "bac4c3e3-a296-48ad-82ed-a1508213420b")
+	)
+	(label "LED0"
+		(at 83.82 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c94a6800-138c-4aeb-bee9-9994e3a35e6f")
 	)
 	(label "DIN"
 		(at 116.84 60.96 0)
@@ -5510,7 +5787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00c8d1f4-67a6-4aef-9fe6-c42cda13d3a1")
-		(property "Reference" "R103"
+		(property "Reference" "R101"
 			(at 81.28 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5595,7 +5872,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R103")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -5613,7 +5890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01f9e156-5bf5-4a11-b380-3093e7ee7667")
-		(property "Reference" "U101"
+		(property "Reference" "U103"
 			(at 233.68 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5744,7 +6021,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U101")
+					(reference "U103")
 					(unit 1)
 				)
 			)
@@ -5762,7 +6039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ae9dc7-e23f-4df7-98f3-af64bef85e7c")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0132"
 			(at 251.46 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5821,7 +6098,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0134")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -5839,7 +6116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0648ce4c-f135-4980-9cdd-16e8e033499c")
-		(property "Reference" "C102"
+		(property "Reference" "C104"
 			(at 222.25 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5969,7 +6246,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C102")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -5987,7 +6264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d5d1cb-ee94-4882-ba91-2e4685da6ab5")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0110"
 			(at 114.3 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6046,7 +6323,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0120")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6064,7 +6341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "117cb938-c5b8-4a82-8bad-434c8e127784")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0114"
 			(at 146.05 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6123,7 +6400,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0106")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -6306,7 +6583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a8f15d1-2bfd-4a85-90c7-266ee22ecf16")
-		(property "Reference" "C106"
+		(property "Reference" "C102"
 			(at 60.96 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6434,7 +6711,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C106")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -6452,7 +6729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20851eb3-523d-4488-9302-7f1df2b5403a")
-		(property "Reference" "C103"
+		(property "Reference" "C105"
 			(at 247.65 42.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6582,7 +6859,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C103")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -6600,7 +6877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e0d6f8-3f83-4e07-ab4c-8da1328ca46c")
-		(property "Reference" "R101"
+		(property "Reference" "R102"
 			(at 93.98 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6685,7 +6962,84 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R101")
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 190.5 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23210a1b-3b97-48e9-8239-095739242f9e")
+		(property "Reference" "#PWR0117"
+			(at 190.5 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.5 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "966d1ed6-e32f-45cd-b900-c001306c7cd1")
+		)
+		(instances
+			(project "LEDcube"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6704,7 +7058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25852964-e2e8-4a1e-a4bd-d5eb861607e1")
-		(property "Reference" "J101"
+		(property "Reference" "J102"
 			(at 118.11 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6782,7 +7136,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J101")
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -6800,7 +7154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "285b7c5a-cad1-4fb9-b36f-ca7a86d4e92d")
-		(property "Reference" "D104"
+		(property "Reference" "D105"
 			(at 237.49 122.6693 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6936,7 +7290,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D104")
+					(reference "D105")
 					(unit 1)
 				)
 			)
@@ -6954,7 +7308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28aefc84-1f0c-415b-b337-ae32b0353648")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0109"
 			(at 101.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7013,7 +7367,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0119")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -7031,7 +7385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3652883f-71f9-448a-b4a7-318692831cdf")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0124"
 			(at 224.79 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -7090,7 +7444,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0126")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c24ac5e-07ff-478d-aead-6843d5c340ca")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0131"
 			(at 251.46 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7167,7 +7521,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0133")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -7185,7 +7539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff9aabc-2bb7-4d7e-b2b0-c42f3715d28d")
-		(property "Reference" "R102"
+		(property "Reference" "R103"
 			(at 116.84 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7270,7 +7624,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R102")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -7288,7 +7642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40cb017d-f84f-4cd6-88a9-5f6045562f37")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0108"
 			(at 101.6 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7347,7 +7701,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0118")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -7512,7 +7866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449ccf2a-8496-4ab0-ae2b-7ca5fce0f446")
-		(property "Reference" "J102"
+		(property "Reference" "J103"
 			(at 118.11 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +7944,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J102")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -7762,7 +8116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "491fa055-d3b9-464e-a08b-cf4fbe92015f")
-		(property "Reference" "D103"
+		(property "Reference" "D104"
 			(at 212.09 122.6693 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7898,7 +8252,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D103")
+					(reference "D104")
 					(unit 1)
 				)
 			)
@@ -7916,7 +8270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53edf533-09f0-40c8-98db-94672f47e464")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0104"
 			(at 67.31 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7975,7 +8329,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0113")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -7993,7 +8347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "542d3387-e98c-449d-a58e-e9e56dd27d7d")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0127"
 			(at 233.68 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8052,7 +8406,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0105")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -8070,7 +8424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5533596c-bd51-4c91-bd91-4e04b1f3598b")
-		(property "Reference" "D105"
+		(property "Reference" "D106"
 			(at 262.89 122.6693 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8206,7 +8560,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D105")
+					(reference "D106")
 					(unit 1)
 				)
 			)
@@ -8224,7 +8578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58f5c2a1-523b-4d94-9906-cc67846c78b4")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0123"
 			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8283,7 +8637,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0103")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -8301,7 +8655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d00a49c-7bf7-4057-8071-b2aada3b68da")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0128"
 			(at 237.49 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8360,7 +8714,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0129")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -8467,7 +8821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e132854-e527-473a-ba69-be966c278430")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0133"
 			(at 254 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8526,7 +8880,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0111")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -8544,7 +8898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f060d25-d5c7-455c-ac29-d4aecca08de9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0116"
 			(at 175.26 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8603,7 +8957,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0124")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -8772,7 +9126,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6525acf4-a550-4c99-8a3e-a079189b5aa2")
-		(property "Reference" "U103"
+		(property "Reference" "U102"
 			(at 138.43 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,7 +9275,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U103")
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -8939,7 +9293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6873a01f-39d3-47ae-a47c-76dc6d3ac34d")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0115"
 			(at 175.26 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8998,7 +9352,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0123")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -9016,7 +9370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69f62579-6184-4042-983f-4813ac79ed5e")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0119"
 			(at 200.66 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -9075,7 +9429,89 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0128")
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a1b2a05-ce9b-44cd-bd78-7fb61fd31aad")
+		(property "Reference" "R104"
+			(at 193.04 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 193.04 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 188.722 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "221c16a3-8250-46e3-9b0a-9e959544a35d")
+		)
+		(pin "2"
+			(uuid "04c3c4a2-2770-4f3d-8653-9319853eb21c")
+		)
+		(instances
+			(project "LEDcube"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -9093,7 +9529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd20d96-a29d-4707-9053-02733964ddc5")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0113"
 			(at 135.89 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9152,7 +9588,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0104")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -9170,7 +9606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e344678-e751-4f17-9459-2ae5207f10a9")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0121"
 			(at 208.28 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9229,7 +9665,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0102")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -9337,7 +9773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d1fc2e-087b-425a-bf4e-b7a36268b0b4")
-		(property "Reference" "C104"
+		(property "Reference" "C106"
 			(at 257.81 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9467,7 +9903,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C104")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -9486,7 +9922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bfcd703-76b3-4a8f-bf62-d3467d1914e6")
-		(property "Reference" "J103"
+		(property "Reference" "J101"
 			(at 45.72 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9570,7 +10006,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J103")
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -9587,7 +10023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d3050e5-49af-49d4-a2a0-cf297ffae2a1")
-		(property "Reference" "TP1"
+		(property "Reference" "TP101"
 			(at 163.576 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9648,7 +10084,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP1")
+					(reference "TP101")
 					(unit 1)
 				)
 			)
@@ -9741,7 +10177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8307118e-5b45-4847-b823-1943e5d9de76")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG0102"
 			(at 218.44 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -9800,7 +10236,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG0101")
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -9818,7 +10254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ec2c0a-1d0e-42b1-87e6-51ec2f1cd8aa")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0134"
 			(at 254 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9877,7 +10313,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0112")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -9895,7 +10331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9496ce2c-7e79-408e-b999-bff00e879fa5")
-		(property "Reference" "C101"
+		(property "Reference" "C103"
 			(at 212.09 42.2909 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10025,7 +10461,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C101")
+					(reference "C103")
 					(unit 1)
 				)
 			)
@@ -10043,7 +10479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94b37377-3142-4863-a0f2-5377b5a279db")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0112"
 			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10102,7 +10538,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0122")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -10120,7 +10556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "950497b0-7246-40ba-b757-113d53f0e001")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0111"
 			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10179,7 +10615,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0121")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -10197,7 +10633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "997d43ac-1b3c-440e-9afe-6de45f2a7078")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0118"
 			(at 200.66 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10256,7 +10692,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0127")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10709,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7a245cb-77a4-4fed-aedd-efe06db384de")
-		(property "Reference" "C105"
+		(property "Reference" "C101"
 			(at 60.96 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10401,7 +10837,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C105")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -10419,7 +10855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adb2805b-9bd1-4d46-a6d7-03845b06f98b")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0122"
 			(at 212.09 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10478,7 +10914,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0125")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -10585,7 +11021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49a5aa0-cf9d-4ee1-afe1-cabd88baaa59")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0102"
 			(at 53.34 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10644,7 +11080,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0107")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -10662,7 +11098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba462a62-4f43-466f-9785-096e684a667f")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0126"
 			(at 226.06 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10721,7 +11157,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0132")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -10739,7 +11175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43cfed9-d8a9-46f5-9974-e0989a10c8df")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0103"
 			(at 54.61 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10798,7 +11234,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0110")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -10816,7 +11252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdb6ebdf-c356-49f6-8174-d0b003e51a70")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG0101"
 			(at 140.335 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10876,7 +11312,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG0102")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -10894,7 +11330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf058f25-2bad-4c49-a0c4-f059825c427f")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0125"
 			(at 226.06 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10953,7 +11389,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0131")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -11063,7 +11499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d39d6b39-21bc-4902-91b3-f97299af8578")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0107"
 			(at 99.06 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11122,7 +11558,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0117")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11293,6 +11729,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e648f4fb-c416-42b2-ba5f-5772aa87dd19")
+		(property "Reference" "D103"
+			(at 194.31 52.3874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 194.31 54.9274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 190.5 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15169b54-7188-4593-bd04-ddc8eb97907d")
+		)
+		(pin "2"
+			(uuid "e2256b48-cc1f-4499-a719-5ea51cfcb3df")
+		)
+		(instances
+			(project "LEDcube"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 91.44 100.33 0)
 		(unit 1)
@@ -11304,7 +11833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e73bb209-f9af-4d0e-b715-d433483f3617")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0105"
 			(at 91.44 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11363,7 +11892,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0114")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -11381,7 +11910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7e186e0-cb0c-4704-816f-05a9b3696b56")
-		(property "Reference" "U102"
+		(property "Reference" "U101"
 			(at 103.6194 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11566,7 +12095,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U102")
+					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -11584,7 +12113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea68d1d6-38ec-47de-8e68-61d8cd13637d")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0129"
 			(at 243.84 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11643,7 +12172,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0109")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -11661,7 +12190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f63f9169-6be7-474e-910e-7595dfe34053")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0120"
 			(at 208.28 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11720,7 +12249,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0101")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -11738,7 +12267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc6b496c-0790-40e0-8d20-4a7b55d7cd02")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0106"
 			(at 91.44 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11797,7 +12326,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0115")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -11815,7 +12344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc2b44d-1e24-41c8-8a4c-d4789be89dd2")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0101"
 			(at 53.34 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11874,7 +12403,7 @@
 		(instances
 			(project "LEDcube"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR0108")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
