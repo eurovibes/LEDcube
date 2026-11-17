@@ -688,6 +688,12 @@
           "label": "DistribPart#",
           "name": "DistribPart#",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -750,7 +756,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "#FLG1-2,#FLG101-102,#LOGO1,#LOGO101,#PWR1-34,#PWR101-134,#SYM1,#SYM101,C1-6,C101-106,D1-6,D101-106,H1-4,H101-104,J1-3,J101-103,JP1-2,JP101-102,R1-4,R101-104,TP1,TP101,U1-3,U101-103,Y1,Y101",
+    "used_designators": "#FLG1-2,#FLG101-102,#LOGO1,#LOGO101,#PWR1-34,#PWR101-134,#SYM1,#SYM101,C1-6,C101-106,D1-6,D101-106,H1-4,H101-104,J1-3,J101-103,JP1-2,JP101-102,R1-4,R101-104,TP1,TP101-105,U1-3,U101-103,Y1,Y101",
     "variants": []
   },
   "sheets": [
