@@ -1,21 +1,22 @@
 Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,Quantity Per PCB
-1,C102 C104 C105 C106,C,100 nF,,,,C_0402_1005Metric,,4
-2,C101 C103,C_Polarized,10 µF,,,,CP_EIA-3216-18_Kemet-A,,2
+1,C101 C102 C104 C106,C,9 pF,,,,C_0402_1005Metric,,4
+2,C103 C105,C_Polarized,10 µF,,,,CP_EIA-3216-18_Kemet-A,,2
 3,D101,BAT60A,BAT60A,,,,D_SOD-323,,1
-4,D102 D103 D104 D105,WS2812B,WS2812B,,,,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,,4
-5,H101 H102 H103 H104,MountingHole_Pad,,,,,MountingHole_3.2mm_M3_ISO14580_Pad,,4
-6,J101 J102,Conn_01x04,IN,,,,PinHeader_1x04_P2.54mm_Vertical,,2
-7,J103,Conn_01x06,JTAG,,,,Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical,,1
-8,JP101 JP102,SolderJumper_2_Open,NRST,,,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,2
-9,R101 R102 R103,R,100 kΩ,,,,R_0402_1005Metric,,3
-10,SYM4,CE-Logo_8.5x6mm_SilkScreen,CE-Logo_8.5x6mm_SilkScreen,,,,CE-Logo_8.5x6mm_SilkScreen,,1
-11,SYM3,ESD-Logo_6.6x6mm_SilkScreen,ESD-Logo_6.6x6mm_SilkScreen,,,,ESD-Logo_6.6x6mm_SilkScreen,,1
-12,SYM1,LOGO,LOGO,,,,LOGO,,1
-13,SYM2,WEEE-Logo_5.6x8mm_SilkScreen,WEEE-Logo_5.6x8mm_SilkScreen,,,,WEEE-Logo_5.6x8mm_SilkScreen,,1
-14,U101,AP1117-33,AP1117-33,,,,SOT-223-3_TabPin2,,1
-15,U103,SP3485CN,SP3485CN,,,,SOIC-8_3.9x4.9mm_P1.27mm,,1
-16,U102,STM32F030F4Px,STM32F030F4Px,,,,TSSOP-20_4.4x6.5mm_P0.65mm,,1
-17,Y101,Crystal_GND24_Small,16MHz,,,,Crystal_SMD_3225-4Pin_3.2x2.5mm,,1
+4,D103,LED,LED,,,,LED_0603_1608Metric,,1
+5,D102 D104 D105 D106,WS2812B,WS2812B,,,,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,,4
+6,H101 H102 H103 H104,MountingHole_Pad,,,,,MountingHole_3.2mm_M3_ISO14580_Pad,,4
+7,J102 J103,Conn_01x04,IN,,,,PinHeader_1x04_P2.54mm_Vertical,,2
+8,J101,Conn_01x06,JTAG,,,,Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical,,1
+9,JP101 JP102,SolderJumper_2_Open,NRST,,,,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,,2
+10,R101 R102 R103 R104,R,1 MΩ,,,,R_0402_1005Metric,,4
+11,SYM4,CE-Logo_8.5x6mm_SilkScreen,CE-Logo_8.5x6mm_SilkScreen,,,,CE-Logo_8.5x6mm_SilkScreen,,1
+12,SYM3,ESD-Logo_6.6x6mm_SilkScreen,ESD-Logo_6.6x6mm_SilkScreen,,,,ESD-Logo_6.6x6mm_SilkScreen,,1
+13,SYM1,LOGO,LOGO,,,,LOGO,,1
+14,SYM2,WEEE-Logo_5.6x8mm_SilkScreen,WEEE-Logo_5.6x8mm_SilkScreen,,,,WEEE-Logo_5.6x8mm_SilkScreen,,1
+15,U103,AP1117-33,AP1117-33,,,,SOT-223-3_TabPin2,,1
+16,U102,SP3485CN,SP3485CN,,,,SOIC-8_3.9x4.9mm_P1.27mm,,1
+17,U101,STM32F030F4Px,STM32F030F4Px,,,,TSSOP-20_4.4x6.5mm_P0.65mm,,1
+18,Y101,Crystal_GND24_Small,16MHz,,,,Crystal_SMD_3225-4Pin_3.2x2.5mm,,1
 
 
 
@@ -28,8 +29,8 @@ Revision:,v0.1
 Date:,2022-05-22
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,17
-Component Count:,31
-Fitted Components:,31
+Component Groups:,18
+Component Count:,33
+Fitted Components:,33
 Number of PCBs:,1
-Total Components:,31
+Total Components:,33

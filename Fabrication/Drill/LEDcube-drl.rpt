@@ -1,5 +1,5 @@
 Drill report for LEDcube.kicad_pcb
-Created on 2026-11-16T17:51:37
+Created on 2026-11-17T11:27:29
 
 Copper Layer Stackup:
     =============================================================
@@ -10,11 +10,11 @@ Copper Layer Stackup:
 Drill file 'LEDcube-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.400mm  0.0157"  (14 holes))
+    T1  0.400mm  0.0157"  (15 holes))
     T2  1.000mm  0.0394"  (8 holes))
     T3  3.200mm  0.1260"  (4 holes))
 
-    Total plated holes count 26
+    Total plated holes count 27
 
 
 Drill file 'LEDcube-NPTH.drl' contains
